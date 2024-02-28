@@ -1,6 +1,8 @@
 module github.com/trufflesecurity/trufflehog/v3
 
-go 1.21
+go 1.22
+
+toolchain go1.22.0
 
 replace github.com/jpillora/overseer => github.com/trufflesecurity/overseer v1.2.7
 
@@ -21,6 +23,7 @@ require (
 	github.com/bitfinexcom/bitfinex-api-go v0.0.0-20210608095005-9e0b26f200fb
 	github.com/bradleyfalzon/ghinstallation/v2 v2.9.0
 	github.com/brianvoe/gofakeit/v6 v6.28.0
+	github.com/brianvoe/gofakeit/v7 v7.0.2
 	github.com/charmbracelet/bubbles v0.18.0
 	github.com/charmbracelet/bubbletea v0.25.0
 	github.com/charmbracelet/glamour v0.6.0
